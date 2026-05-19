@@ -1,0 +1,178 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="x-apple-disable-message-reformatting">
+  <meta name="color-scheme" content="light only">
+  <meta name="supported-color-schemes" content="light only">
+  <title>Welcome to Domino</title>
+</head>
+<body style="margin:0; padding:0; background-color:#f4f4f4; font-family:'Helvetica Neue', Helvetica, Arial, sans-serif; color:#1E1E1E; -webkit-font-smoothing:antialiased;"><div style="display:none;font-size:1px;color:#f4f4f4;line-height:1px;max-height:0px;max-width:0px;opacity:0;overflow:hidden;">Welcome <<onboarding_form.body.first_name>> &mdash; your Day 1 setup for <<onboarding_form.body.employee_start_date>> &middot; sent <<NOW()>> &middot; ref <<MD5(onboarding_form.body.personal_email)>></div>
+<table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%" style="background-color:#f4f4f4;"><tr><td align="center" style="padding:24px 12px;">
+<table role="presentation" cellpadding="0" cellspacing="0" border="0" width="620" style="max-width:620px; width:100%; background-color:#ffffff;">
+
+<!-- HEADER -->
+<tr><td style="background-color:#1E1E1E; padding:48px 48px 48px 48px;">
+<img src="https://media.licdn.com/dms/image/v2/D560BAQFQC4Vw2MVhAw/company-logo_200_200/B56ZfHQGbWGoAg-/0/1751394576361/domino_data_lab_logo?e=2147483647&v=beta&t=rLtHwLucgN09DNEWJPg8WcD9H_s_1QbUGL1CRm8y9O0" width="56" height="56" alt="Domino" style="display:block; border:0; margin:0 0 32px 0;">
+<p style="margin:0 0 14px 0; color:#FF6543; font-family:'Helvetica Neue',Helvetica,Arial,sans-serif; font-size:13px; line-height:18px; font-weight:700; letter-spacing:2px; text-transform:uppercase;">FROM THE IT TEAM</p>
+<h1 class="hero-title" style="margin:0; color:#ffffff; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size:38px; line-height:44px; font-weight:300; letter-spacing: -0.5px;">Welcome to Domino</h1>
+</td></tr>
+
+<!-- INTRO -->
+<tr><td style="padding:36px 48px 4px 48px;">
+<p style="margin:0 0 20px 0; color:#1E1E1E; font-family:'Helvetica Neue',Helvetica,Arial,sans-serif; font-size:17px; line-height:26px;">Hi <strong><<onboarding_form.body.first_name>></strong>,</p>
+<p style="margin:0 0 20px 0; color:#1E1E1E; font-family:'Helvetica Neue',Helvetica,Arial,sans-serif; font-size:17px; line-height:26px;">We're excited to have you joining Domino on <strong><<onboarding_form.body.employee_start_date>></strong>. This email walks you through everything you need to get set up &mdash; please complete these steps before or on Day 1. Nothing here is urgent today; just follow along when your laptop arrives.</p>
+</td></tr>
+
+<!-- LAPTOP CALLOUT -->
+<tr><td style="padding:16px 48px 0 48px;">
+<table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%" style="background-color:#FF6543;"><tr><td style="padding:24px 28px;">
+<p style="margin:0 0 12px 0; color:#1E1E1E; font-family:'Helvetica Neue',Helvetica,Arial,sans-serif; font-size:13px; line-height:18px; font-weight:700; letter-spacing:2px; text-transform:uppercase;">YOUR LAPTOP IS ON THE WAY</p>
+<p style="margin:0; color:#1E1E1E; font-family:'Helvetica Neue',Helvetica,Arial,sans-serif; font-size:17px; line-height:26px;">Expected delivery: <strong><<onboarding_form.body.expected_delivery_date>></strong><br>FedEx tracking: <a href="<<onboarding_form.body.tracking_url>>" style="color:#1E1E1E; text-decoration:underline; font-weight:700;"><<onboarding_form.body.tracking_url>></a></p>
+</td></tr></table>
+</td></tr>
+
+<!-- STEP 1 -->
+<tr><td style="padding:40px 48px 0 48px;">
+<table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%"><tr>
+<td width="4" style="background-color:#FF6543; width:4px;"></td>
+<td style="padding:0 0 0 20px;">
+<p style="margin:0 0 8px 0; color:#FF6543; font-family:'Helvetica Neue',Helvetica,Arial,sans-serif; font-size:13px; line-height:18px; font-weight:700; letter-spacing:2px; text-transform:uppercase;">STEP 1</p>
+<h2 style="margin:0; color:#1E1E1E; font-family:'Helvetica Neue',Helvetica,Arial,sans-serif; font-size:26px; line-height:32px; font-weight:700; letter-spacing:-0.3px;">Reset Your Laptop Password</h2>
+</td></tr></table>
+<p style="margin:20px 0 18px 0; color:#1E1E1E; font-family:'Helvetica Neue',Helvetica,Arial,sans-serif; font-size:17px; line-height:26px;">Your temporary laptop password has been shared with you via a secure link &mdash; it can only be viewed once and expires in 7 days:</p>
+<p style="margin:0 0 18px 0;"><a href="<<onboarding_form.body.laptop_password_link>>" style="display:inline-block; background-color:#FF6543; color:#ffffff; padding:14px 26px; text-decoration:none; font-family:'Helvetica Neue',Helvetica,Arial,sans-serif; font-size:16px; line-height:20px; font-weight:700;">View your temporary password &rarr;</a></p>
+<p style="margin:0 0 14px 0; color:#1E1E1E; font-family:'Helvetica Neue',Helvetica,Arial,sans-serif; font-size:17px; line-height:26px;">Once you have it, open <strong>System Settings &gt; Users &amp; Groups</strong>, click the &#9432; icon next to your name, then select <strong>Change</strong> next to Password. Enter the temporary password and choose a new one.</p>
+<p style="margin:0 0 8px 0; color:#1E1E1E; font-family:'Helvetica Neue',Helvetica,Arial,sans-serif; font-size:17px; line-height:26px;">Your new password must:</p>
+<ul style="margin:0 0 8px 0; padding-left:24px; color:#1E1E1E; font-family:'Helvetica Neue',Helvetica,Arial,sans-serif; font-size:17px; line-height:28px;">
+<li>Be at least 8 characters</li>
+<li>Include at least one number and one letter</li>
+<li>Include at least one symbol (e.g. !@#$%^&amp;*)</li>
+<li>Not repeat three sequential or consecutive characters</li>
+<li>Not match any of your last 5 passwords</li>
+</ul>
+</td></tr>
+
+<!-- STEP 2 -->
+<tr><td style="padding:36px 48px 0 48px;">
+<table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%"><tr>
+<td width="4" style="background-color:#FF6543; width:4px;"></td>
+<td style="padding:0 0 0 20px;">
+<p style="margin:0 0 8px 0; color:#FF6543; font-family:'Helvetica Neue',Helvetica,Arial,sans-serif; font-size:13px; line-height:18px; font-weight:700; letter-spacing:2px; text-transform:uppercase;">STEP 2</p>
+<h2 style="margin:0; color:#1E1E1E; font-family:'Helvetica Neue',Helvetica,Arial,sans-serif; font-size:26px; line-height:32px; font-weight:700; letter-spacing:-0.3px;">Enable Touch ID</h2>
+</td></tr></table>
+<p style="margin:20px 0 0 0; color:#1E1E1E; font-family:'Helvetica Neue',Helvetica,Arial,sans-serif; font-size:17px; line-height:26px;">Your Mac locks after about 10 minutes of inactivity. Enrolling Touch ID will save you time all day. Go to <strong>System Settings &gt; Touch ID</strong> and add one or more fingers.</p>
+</td></tr>
+
+<!-- STEP 3 -->
+<tr><td style="padding:36px 48px 0 48px;">
+<table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%"><tr>
+<td width="4" style="background-color:#FF6543; width:4px;"></td>
+<td style="padding:0 0 0 20px;">
+<p style="margin:0 0 8px 0; color:#FF6543; font-family:'Helvetica Neue',Helvetica,Arial,sans-serif; font-size:13px; line-height:18px; font-weight:700; letter-spacing:2px; text-transform:uppercase;">STEP 3</p>
+<h2 style="margin:0; color:#1E1E1E; font-family:'Helvetica Neue',Helvetica,Arial,sans-serif; font-size:26px; line-height:32px; font-weight:700; letter-spacing:-0.3px;">Access Your Work Account</h2>
+</td></tr></table>
+<p style="margin:20px 0 0 0; color:#1E1E1E; font-family:'Helvetica Neue',Helvetica,Arial,sans-serif; font-size:17px; line-height:26px;">The day before your start date, you'll receive a password reset email from Google Workspace. Follow the link to set your password &mdash; this is your key to Gmail, Calendar, Drive, and every other Domino system. If you don't see it in your inbox, check spam and then reach out to IT.</p>
+</td></tr>
+
+<!-- STEP 4 -->
+<tr><td style="padding:36px 48px 0 48px;">
+<table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%"><tr>
+<td width="4" style="background-color:#FF6543; width:4px;"></td>
+<td style="padding:0 0 0 20px;">
+<p style="margin:0 0 8px 0; color:#FF6543; font-family:'Helvetica Neue',Helvetica,Arial,sans-serif; font-size:13px; line-height:18px; font-weight:700; letter-spacing:2px; text-transform:uppercase;">STEP 4</p>
+<h2 style="margin:0; color:#1E1E1E; font-family:'Helvetica Neue',Helvetica,Arial,sans-serif; font-size:26px; line-height:32px; font-weight:700; letter-spacing:-0.3px;">Turn On 2-Step Verification</h2>
+</td></tr></table>
+<p style="margin:20px 0 14px 0; color:#1E1E1E; font-family:'Helvetica Neue',Helvetica,Arial,sans-serif; font-size:17px; line-height:26px;">For security reasons Domino doesn't allow SMS-based 2FA &mdash; you'll use the Google Authenticator app instead. It takes about five minutes:</p>
+<ul style="margin:0 0 8px 0; padding-left:24px; color:#1E1E1E; font-family:'Helvetica Neue',Helvetica,Arial,sans-serif; font-size:17px; line-height:28px;">
+<li>Install <strong>Google Authenticator</strong> on your phone (App Store or Google Play).</li>
+<li>Visit <a href="https://myaccount.google.com" style="color:#FF6543; text-decoration:underline;">myaccount.google.com</a>, click <strong>Security</strong>, and choose <strong>2-Step Verification</strong>.</li>
+<li>Select <strong>Authenticator app</strong>, scan the QR code, and enter the 6-digit code to verify.</li>
+<li>Click <strong>Turn On</strong> to activate.</li>
+<li>Save your <strong>backup codes</strong> in a safe place (printed or in a password manager).</li>
+</ul>
+<table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%" style="background-color:#FF6543;"><tr><td style="padding:18px 24px;">
+<p style="margin:0; color:#1E1E1E; font-family:'Helvetica Neue',Helvetica,Arial,sans-serif; font-size:16px; line-height:22px; font-weight:700;">&#9888;&#65039;&nbsp; Losing both your phone and backup codes will lock you out of your account. Save those codes somewhere safe.</p>
+</td></tr></table>
+</td></tr>
+
+<!-- STEP 5 -->
+<tr><td style="padding:36px 48px 0 48px;">
+<table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%"><tr>
+<td width="4" style="background-color:#FF6543; width:4px;"></td>
+<td style="padding:0 0 0 20px;">
+<p style="margin:0 0 8px 0; color:#FF6543; font-family:'Helvetica Neue',Helvetica,Arial,sans-serif; font-size:13px; line-height:18px; font-weight:700; letter-spacing:2px; text-transform:uppercase;">STEP 5</p>
+<h2 style="margin:0; color:#1E1E1E; font-family:'Helvetica Neue',Helvetica,Arial,sans-serif; font-size:26px; line-height:32px; font-weight:700; letter-spacing:-0.3px;">Activate Zoom &amp; Find Your Onboarding Meeting</h2>
+</td></tr></table>
+<p style="margin:20px 0 14px 0; color:#1E1E1E; font-family:'Helvetica Neue',Helvetica,Arial,sans-serif; font-size:17px; line-height:26px;">You'll receive several software invites over your first few days. The one to set up before our IT onboarding session is <strong>Zoom</strong>. Look for an email from <code style="font-family:Menlo,Consolas,monospace; font-size:15px;">noreply@zoom.us</code> with the subject <em>Zoom Accounts Activation</em>.</p>
+<p style="margin:0 0 14px 0; color:#1E1E1E; font-family:'Helvetica Neue',Helvetica,Arial,sans-serif; font-size:17px; line-height:26px;">Click <strong>Sign In to Zoom</strong> and choose the <strong>SSO</strong> option &mdash; no password needed.</p>
+<p style="margin:0; color:#1E1E1E; font-family:'Helvetica Neue',Helvetica,Arial,sans-serif; font-size:17px; line-height:26px;">Then open <a href="https://calendar.google.com" style="color:#FF6543; text-decoration:underline;">Google Calendar</a> &mdash; you'll find our IT onboarding meeting at <strong>9AM PST</strong>. See you there!</p>
+</td></tr>
+
+<!-- STEP 6 -->
+<tr><td style="padding:36px 48px 0 48px;">
+  <table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+      <td width="4" style="background-color:#FF6543;width:4px;"></td>
+      <td style="padding:0 0 0 20px;">
+        <p style="margin:0 0 8px 0;color:#FF6543;font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;font-size:13px;line-height:18px;font-weight:700;letter-spacing:2px;text-transform:uppercase;">STEP 6</p>
+        <h2 style="margin:0;color:#1E1E1E;font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;font-size:26px;line-height:32px;font-weight:700;letter-spacing:-0.3px;">Your Core Tools</h2>
+      </td>
+    </tr>
+  </table>
+  <p style="margin:20px 0 14px 0;color:#1E1E1E;font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;font-size:17px;line-height:26px;">The following tools will be provisioned and ready for you when you start:</p>
+  <table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr><td style="padding:12px 0;border-bottom:1px solid #f0f0f0;">
+      <strong style="font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;font-size:17px;color:#1E1E1E;display:block;">Google Workspace</strong>
+      <span style="font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;font-size:15px;color:#666666;">Gmail, Calendar, Drive &amp; more</span>
+    </td></tr>
+    <tr><td style="padding:12px 0;border-bottom:1px solid #f0f0f0;">
+      <strong style="font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;font-size:17px;color:#1E1E1E;display:block;">Slack</strong>
+      <span style="font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;font-size:15px;color:#666666;">Team messaging &amp; collaboration</span>
+    </td></tr>
+    <tr><td style="padding:12px 0;border-bottom:1px solid #f0f0f0;">
+      <strong style="font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;font-size:17px;color:#1E1E1E;display:block;">Zoom</strong>
+      <span style="font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;font-size:15px;color:#666666;">Video conferencing</span>
+    </td></tr>
+    <tr><td style="padding:12px 0;border-bottom:1px solid #f0f0f0;">
+      <strong style="font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;font-size:17px;color:#1E1E1E;display:block;">1Password</strong>
+      <span style="font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;font-size:15px;color:#666666;">Password manager — IT will share your invite</span>
+    </td></tr>
+    <tr><td style="padding:12px 0;border-bottom:1px solid #f0f0f0;">
+      <strong style="font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;font-size:17px;color:#1E1E1E;display:block;">Okta</strong>
+      <span style="font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;font-size:15px;color:#666666;">Single sign-on &amp; identity management</span>
+    </td></tr>
+    <tr><td style="padding:12px 0;">
+      <strong style="font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;font-size:17px;color:#1E1E1E;display:block;">Atlassian (Jira)</strong>
+      <span style="font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;font-size:15px;color:#666666;">Project tracking &amp; IT support portal</span>
+    </td></tr>
+  </table>
+</td></tr>
+
+<!-- QUESTIONS -->
+<tr><td style="padding:36px 48px 0 48px;">
+<table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%" style="background-color:#1E1E1E;"><tr><td style="padding:28px 32px;">
+<p style="margin:0 0 10px 0; color:#FF6543; font-family:'Helvetica Neue',Helvetica,Arial,sans-serif; font-size:13px; line-height:18px; font-weight:700; letter-spacing:2px; text-transform:uppercase;">QUESTIONS?</p>
+<p style="margin:0; color:#ffffff; font-family:'Helvetica Neue',Helvetica,Arial,sans-serif; font-size:16px; line-height:24px; font-weight:700;">Reach out on Slack at <span style="color:#FF6543;">#it-team</span> or email <a href="mailto:it@dominodatalab.com" style="color:#FF6543; text-decoration:underline;">it@dominodatalab.com</a>. Nothing is too small to ask.</p>
+</td></tr></table>
+</td></tr>
+
+<!-- SIGN OFF -->
+<tr><td align="center" style="padding:32px 48px 36px 48px;">
+<p style="margin:0 0 10px 0; color:#1E1E1E; font-family:'Helvetica Neue',Helvetica,Arial,sans-serif; font-size:18px; line-height:26px;">We're excited to have you on the team. &#127881;</p>
+<p style="margin:0; color:#1E1E1E; font-family:'Helvetica Neue',Helvetica,Arial,sans-serif; font-size:17px; line-height:24px; font-weight:700;">&mdash; The Domino IT Team</p>
+</td></tr>
+
+</table>
+
+<!-- FOOTER -->
+<table role="presentation" cellpadding="0" cellspacing="0" border="0" width="620" style="max-width:620px; width:100%;"><tr><td align="center" style="padding:16px 40px;">
+<p style="margin:0 0 4px 0; color:#888888; font-family:'Helvetica Neue',Helvetica,Arial,sans-serif; font-size:12px; line-height:18px;">Domino &middot; IT Onboarding &middot; Confidential</p>
+<p style="margin:0; color:#888888; font-family:'Helvetica Neue',Helvetica,Arial,sans-serif; font-size:12px; line-height:18px;">This email contains setup instructions for your first day. Please don't forward.</p>
+</td></tr></table>
+
+</td></tr></table>
+</body>
+</html>
